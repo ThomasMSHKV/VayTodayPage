@@ -1,0 +1,89 @@
+.main {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background: url('../img/main-bg.jpg') no-repeat center / cover;
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  z-index: 1;
+}
+
+.main__left {
+  width: 60%;
+  margin-top: 100px;
+}
+
+.main__right {
+  width: 23%;
+}
+
+.main__right-phone {
+  width: 100%;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+.main__right-phone:hover {
+  transform: scale(1.01);
+}
+
+.main__shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  align-self: flex-end;
+}
+
+.main__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5;
+}
+
+.main__left-title {
+  font-weight: 600;
+  font-size: 56px;
+  color: #ffffff;
+}
+
+.main__left-title-name {
+  text-decoration: underline;
+  font-size: 60px;
+  color: #efd38b;
+}
+
+.main__left-description {
+  color: #ffffff;
+  margin-top: 30px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main__left-buttons {
+  margin-top: 20px;
+}
+
+.main__left-button {
+  height: 70px;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+.main__left-button:hover {
+  transform: scale(1.04);
+}
+
+.main__left-button:first-child {
+  margin-right: 40px;
+}
