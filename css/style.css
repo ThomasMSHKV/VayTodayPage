@@ -2,11 +2,13 @@
 @import "sections/main.css";
 @import "sections/advantages.css";
 @import "sections/pluses.css";
+@import "sections/benefits.css";
 
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
