@@ -1,0 +1,43 @@
+.advantages {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.advantages__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.advantage {
+  width: 28%;
+  padding: 20px;
+  cursor: pointer;
+  transition: .3s box-shadow, .3s transform;
+  border-bottom: 3px solid transparent;
+}
+
+.advantage:hover {
+  box-shadow: 4px 4px 35px 0 rgba(34, 60, 80, 0.2);
+  transform: scale(1.02);
+  border-bottom: 3px solid var(--main-color);
+}
+
+.advantage__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: var(--main-color);
+}
+
+.advantage__image-icon {
+  width: 30px;
+}
+
+.advantage__title {
+  font-size: 17px;
+}

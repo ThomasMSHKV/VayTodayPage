@@ -2,14 +2,12 @@
   position: relative;
   display: flex;
   height: 100vh;
-  background: url('../img/main-bg.jpg') no-repeat center / cover;
+  background: url('../../img/main-bg.jpg') no-repeat center / cover;
 }
 
 .main__container {
   display: flex;
   justify-content: space-between;
-  width: 80%;
-  margin: auto;
   z-index: 1;
 }
 
@@ -19,7 +17,7 @@
 }
 
 .main__right {
-  width: 23%;
+  width: 270px;
 }
 
 .main__right-phone {
@@ -36,7 +34,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 80%;
+  width: 110%;
   align-self: flex-end;
 }
 
@@ -57,9 +55,8 @@
 }
 
 .main__left-title-name {
-  text-decoration: underline;
   font-size: 60px;
-  color: #efd38b;
+  color: var(--main-color);
 }
 
 .main__left-description {
