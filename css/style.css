@@ -4,6 +4,7 @@
 @import "sections/pluses.css";
 @import "sections/benefits.css";
 @import "sections/use.css";
+@import "sections/reviews.css";
 
 * {
   margin: 0;

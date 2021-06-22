@@ -1,0 +1,49 @@
+.reviews {
+  margin-bottom: 200px;
+}
+
+.splide {
+  height: 300px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 90px;
+}
+
+.review__avatar-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.review__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review__author {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.review__location {
+  margin-bottom: 5px;
+}
+
+.review__rating {
+  margin-bottom: 20px;
+}
+
+.review__rating-star {
+  width: 20px;
+}
+
+.review__text {
+  line-height: 24px;
+  font-size: 18px;
+}

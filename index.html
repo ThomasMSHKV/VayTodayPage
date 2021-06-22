@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>VayToday</title>
     <link href="css/style.css" rel="stylesheet" />
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   </head>
   <body>
     <section class="main">
@@ -131,5 +132,65 @@
 		    </div>
 	    </div>
     </section>
+    <section class="reviews">
+	    <div class="container">
+		    <div class="splide">
+			    <div class="splide__track">
+				    <ul class="splide__list">
+					    <li class="splide__slide review">
+						    <div class="review__avatar-wrapper">
+							    <img src="img/evkurov.jpeg" alt="avatar" class="review__avatar">
+						    </div>
+						    <h4 class="review__author">Юнус-Бек Евкуров</h4>
+						    <span class="review__location">Москва</span>
+						    <div class="review__rating">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/empty_star.svg" alt="star">
+						    </div>
+						    <p class="review__text">Пользуюсь приложением VayToday довольно долго, ни разу не подводил</p>
+					    </li>
+					    <li class="splide__slide review">
+						    <div class="review__avatar-wrapper">
+							    <img src="img/mereshkov.jpg" alt="avatar" class="review__avatar">
+						    </div>
+						    <h4 class="review__author">Мерешков Магомед-Амин</h4>
+						    <span class="review__location">Назрань</span>
+						    <div class="review__rating">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+						    </div>
+						    <p class="review__text">Очень удобный интерфейс, все работает очень быстро, теперь найти нужные услуги можно в пару кликов</p>
+					    </li>
+					    
+					    <li class="splide__slide review">
+						    <div class="review__avatar-wrapper">
+							    <img src="img/lema.jpg" alt="avatar" class="review__avatar">
+						    </div>
+						    <h4 class="review__author">Лема Нальгиева</h4>
+						    <span class="review__location">Магас</span>
+						    <div class="review__rating">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/filled_star.svg" alt="star">
+							    <img class="review__rating-star" src="img/empty_star.svg" alt="star">
+						    </div>
+						    <p class="review__text">Недавно заррегестрировалась в VayToday, очень довольна, теперь заказывать песни у Артистов станет гораздо легче!</p>
+					    </li>
+				    </ul>
+			    </div>
+		    </div>
+	    </div>
+    </section>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <script>
+	  new Splide('.splide', {type: "loop", autoplay: 2000}).mount();
+  </script>
 </html>
