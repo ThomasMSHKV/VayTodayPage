@@ -33,7 +33,7 @@
 
 .benefits__images {
   position: absolute;
-  right: -20%;
+  right: -15%;
 }
 
 .benefits__image {
@@ -44,7 +44,6 @@
 }
 
 .benefits__item {
-  /*color: #6c757d;*/
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: bold;
